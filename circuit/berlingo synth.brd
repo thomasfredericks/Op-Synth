@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.0125" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0125" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -153,30 +153,28 @@
 <text x="54.6481" y="6.0325" size="2.54" layer="27" font="vector" rot="R315">LED</text>
 <text x="58.2168" y="54.7624" size="2.54" layer="27" font="vector" rot="R225">FILTER</text>
 <text x="51.3334" y="28.6766" size="2.54" layer="27" font="vector" rot="R315">PWM</text>
-<text x="39.0271" y="11.4173" size="2.54" layer="27" font="vector" align="center">BERLINGO
-SYNTH 0.02</text>
-<text x="38.9128" y="5.3213" size="2.54" layer="27" font="vector" align="center">tofstuff</text>
-<text x="49.3522" y="69.7738" size="1.27" layer="27" font="vector">GND</text>
+<text x="39.0271" y="2.5273" size="1.778" layer="27" font="vector" align="center">BERLINGO SYNTH 0.02</text>
+<text x="50.6222" y="69.7738" size="1.27" layer="27" font="vector">GND</text>
 <text x="38.1" y="69.85" size="1.27" layer="27" font="vector">V+</text>
 <polygon width="0.4064" layer="27">
-<vertex x="38.735" y="59.69"/>
-<vertex x="37.465" y="59.69"/>
-<vertex x="38.1" y="60.96"/>
+<vertex x="38.735" y="59.055"/>
+<vertex x="37.465" y="59.055"/>
+<vertex x="38.1" y="60.325"/>
 </polygon>
 <polygon width="0.4064" layer="27">
-<vertex x="42.545" y="60.96"/>
-<vertex x="43.815" y="60.96"/>
-<vertex x="43.18" y="59.69"/>
+<vertex x="42.545" y="60.325"/>
+<vertex x="43.815" y="60.325"/>
+<vertex x="43.18" y="59.055"/>
 </polygon>
 <polygon width="0.4064" layer="27">
-<vertex x="46.355" y="57.785"/>
-<vertex x="45.085" y="57.785"/>
-<vertex x="45.72" y="59.055"/>
+<vertex x="46.355" y="57.15"/>
+<vertex x="45.085" y="57.15"/>
+<vertex x="45.72" y="58.42"/>
 </polygon>
 <polygon width="0.4064" layer="27">
-<vertex x="47.625" y="59.055"/>
-<vertex x="48.895" y="59.055"/>
-<vertex x="48.26" y="57.785"/>
+<vertex x="47.625" y="58.42"/>
+<vertex x="48.895" y="58.42"/>
+<vertex x="48.26" y="57.15"/>
 </polygon>
 <rectangle x1="7.248025" y1="10.214471875" x2="12.328025" y2="12.754471875" layer="27" rot="R135"/>
 <rectangle x1="6.985" y1="39.37" x2="12.065" y2="41.91" layer="27" rot="R90"/>
@@ -184,35 +182,36 @@ SYNTH 0.02</text>
 <rectangle x1="68.47105" y1="11.43" x2="76.09105" y2="13.97" layer="27" rot="R135"/>
 <rectangle x1="24.4475" y1="73.025" x2="28.2575" y2="74.6125" layer="27"/>
 <polygon width="0.4064" layer="27">
-<vertex x="32.385" y="61.595"/>
-<vertex x="33.655" y="61.595"/>
-<vertex x="33.02" y="60.325"/>
+<vertex x="32.385" y="60.325"/>
+<vertex x="33.655" y="60.325"/>
+<vertex x="33.02" y="59.055"/>
 </polygon>
 <polygon width="0.4064" layer="27">
-<vertex x="27.305" y="61.595"/>
-<vertex x="28.575" y="61.595"/>
-<vertex x="27.94" y="60.325"/>
+<vertex x="27.305" y="60.325"/>
+<vertex x="28.575" y="60.325"/>
+<vertex x="27.94" y="59.055"/>
 </polygon>
 <polygon width="0.4064" layer="27">
-<vertex x="24.765" y="60.6425"/>
-<vertex x="26.035" y="60.6425"/>
-<vertex x="25.4" y="59.3725"/>
+<vertex x="24.765" y="60.325"/>
+<vertex x="26.035" y="60.325"/>
+<vertex x="25.4" y="59.055"/>
 </polygon>
 <polygon width="0.4064" layer="27">
-<vertex x="22.225" y="60.6425"/>
-<vertex x="23.495" y="60.6425"/>
-<vertex x="22.86" y="59.3725"/>
+<vertex x="22.225" y="60.325"/>
+<vertex x="23.495" y="60.325"/>
+<vertex x="22.86" y="59.055"/>
 </polygon>
 <polygon width="0.4064" layer="27">
-<vertex x="51.435" y="57.785"/>
-<vertex x="50.165" y="57.785"/>
-<vertex x="50.8" y="59.055"/>
+<vertex x="51.435" y="57.15"/>
+<vertex x="50.165" y="57.15"/>
+<vertex x="50.8" y="58.42"/>
 </polygon>
 <polygon width="0.4064" layer="27">
-<vertex x="53.975" y="57.785"/>
-<vertex x="52.705" y="57.785"/>
-<vertex x="53.34" y="59.055"/>
+<vertex x="53.975" y="57.15"/>
+<vertex x="52.705" y="57.15"/>
+<vertex x="53.34" y="58.42"/>
 </polygon>
+<text x="35.56" y="78.74" size="1.778" layer="49">Use eagle 6.6 to export!</text>
 </plain>
 <libraries>
 <library name="linear">
@@ -2811,9 +2810,6 @@ design rules under a new name.</description>
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
-<param name="AutoGrid" value="1"/>
-<param name="Efforts" value="1"/>
-<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="-"/>
 <param name="PrefDir.2" value="0"/>
@@ -2910,96 +2906,95 @@ design rules under a new name.</description>
 </element>
 <element name="FI_C2" library="SparkFun-Capacitors" package="CAP-PTH-SMALLEZ" value="102" x="70.710640625" y="47.343284375" rot="R45"/>
 <element name="FI_C1" library="SparkFun-Capacitors" package="CAP-PTH-SMALLEZ" value="102" x="65.123284375" y="47.324584375" rot="R45"/>
-<element name="FX_R1" library="resistor" package="0207/10" value="100k" x="66.04" y="29.845" rot="R135"/>
-<element name="FX_R2" library="resistor" package="0207/10" value="100k" x="69.85" y="29.845" rot="R135"/>
+<element name="PWM_R1" library="resistor" package="0207/10" value="100k" x="66.04" y="29.845" rot="R135"/>
+<element name="PWM_R2" library="resistor" package="0207/10" value="100k" x="69.85" y="29.845" rot="R135"/>
 <element name="FI_R2" library="resistor" package="0207/10" value="100k" x="62.23" y="48.895" rot="R225"/>
 <element name="FI_2" library="SparkFun-Sensors" package="PHOTOCELL" value="" x="44.45" y="44.45" rot="R135"/>
 <element name="FI_1" library="SparkFun-Sensors" package="PHOTOCELL" value="" x="31.75" y="44.45" rot="R225"/>
 <element name="LED_SW" library="SparkFun-Electromechanical" package="TACTILE-PTH-12MM" value="SW" x="67.945" y="8.255" rot="R45">
 <attribute name="PROD_ID" value="SWCH-09185" x="67.945" y="8.255" size="1.778" layer="27" rot="R45" display="off"/>
 </element>
-<element name="LED_LED" library="SparkFun-LED" package="LED5MM" value="" x="38.1" y="29.845"/>
+<element name="LED" library="SparkFun-LED" package="LED5MM" value="" x="38.1" y="29.845"/>
 <element name="LED_R1" library="resistor" package="0207/10" value="150" x="61.595" y="13.97" rot="R225"/>
-<element name="C_OUT_L" library="SparkFun-Capacitors" package="CAP-PTH-SMALLEZ" value="226" x="64.4525" y="63.1825" rot="R135"/>
+<element name="OUTL_C1" library="SparkFun-Capacitors" package="CAP-PTH-SMALLEZ" value="226" x="64.4525" y="63.1825" rot="R135"/>
 <element name="OUT" library="SparkFun-Connectors" package="AUDIO-JACK" value="" x="71.755" y="71.755" rot="R225"/>
-<element name="LFO" library="TOF" package="1X01_SIDE_NAME" value="" x="33.14764375" y="67.31" smashed="yes" rot="R270">
-<attribute name="NAME" x="32.43644375" y="65.4812" size="1.27" layer="27" rot="R270"/>
+<element name="LFO" library="TOF" package="1X01_SIDE_NAME" value="" x="33.14764375" y="67.31" smashed="yes" rot="SR270">
+<attribute name="NAME" x="32.43644375" y="65.4812" size="1.27" layer="27" rot="SR270"/>
 </element>
 <element name="~LED" library="TOF" package="1X01_SIDE_NAME" value="~LED" x="35.687" y="67.31" rot="R270"/>
 <element name="PWM_IN" library="TOF" package="1X01_SIDE_NAME" value="PWM" x="38.1" y="67.31" rot="R270"/>
-<element name="OUTA" library="TOF" package="1X01_SIDE_NAME" value="OUT(L)" x="50.8" y="67.31" rot="R270"/>
-<element name="FX_R3" library="resistor" package="0207/10" value="1M" x="57.15" y="29.21" rot="R315"/>
+<element name="OUTL" library="TOF" package="1X01_SIDE_NAME" value="OUT(L)" x="50.8" y="67.31" rot="R270"/>
+<element name="PWM_R4" library="resistor" package="0207/10" value="1M" x="57.15" y="29.21" rot="R315"/>
 <element name="FI_R1" library="resistor" package="0207/10" value="100k" x="58.42" y="48.895" rot="R45"/>
-<element name="JP2" library="SparkFun-Connectors" package="AUDIO-JACK" value="" x="4.445" y="71.755" rot="R315"/>
-<element name="IN_R1" library="resistor" package="0207/10" value="10k" x="13.335" y="62.865" rot="R225"/>
-<element name="IN_R2" library="resistor" package="0207/10" value="10k" x="11.43" y="64.77" rot="R225"/>
-<element name="IN_C1" library="SparkFun-Capacitors" package="CAP-PTH-SMALLEZ" value="226" x="20.88183125" y="56.89631875" rot="R225"/>
-<element name="IN_L" library="TOF" package="1X01_SIDE_NAME" value="IN(L)" x="22.86" y="67.31" rot="R270"/>
+<element name="IN" library="SparkFun-Connectors" package="AUDIO-JACK" value="" x="4.445" y="71.755" rot="R315"/>
+<element name="INL_R1" library="resistor" package="0207/10" value="10k" x="13.335" y="62.865" rot="R225"/>
+<element name="INL_R2" library="resistor" package="0207/10" value="10k" x="11.43" y="64.77" rot="R225"/>
+<element name="INL_C1" library="SparkFun-Capacitors" package="CAP-PTH-SMALLEZ" value="226" x="20.88183125" y="56.89631875" rot="R225"/>
+<element name="INL" library="TOF" package="1X01_SIDE_NAME" value="IN(L)" x="22.86" y="67.31" rot="SR270"/>
 <element name="~PWM" library="TOF" package="1X01_SIDE_NAME" value="~PWM" x="40.64" y="67.31" rot="R270"/>
 <element name="FILTER_IN" library="TOF" package="1X01_SIDE_NAME" value="FILTER" x="45.72" y="67.31" rot="R270"/>
-<element name="PWM_OUT" library="TOF" package="1X01_SIDE_NAME" value="PWM" x="43.18" y="67.31" rot="R270"/>
-<element name="OUTB" library="TOF" package="1X01_SIDE_NAME" value="OUT(R)" x="53.34" y="67.31" rot="R270"/>
-<element name="FILTER_OUT" library="TOF" package="1X01_SIDE_NAME" value="FILTER" x="48.26" y="67.31" rot="R270"/>
-<element name="IC4" library="linear" package="DIL08" value="LM358N" x="58.42" y="39.37"/>
+<element name="PWM_OUT" library="TOF" package="1X01_SIDE_NAME" value="PWM" x="43.18" y="67.31" rot="SR270"/>
+<element name="OUTR" library="TOF" package="1X01_SIDE_NAME" value="OUT(R)" x="53.34" y="67.31" rot="R270"/>
+<element name="FILTER_OUT" library="TOF" package="1X01_SIDE_NAME" value="FILTER" x="48.26" y="67.31" rot="SR270"/>
+<element name="FX_IC" library="linear" package="DIL08" value="LM358N" x="58.42" y="39.37"/>
 <element name="LFO_IC" library="linear" package="DIL08" value="LM358N" x="17.145" y="16.51" rot="R225"/>
 <element name="LFO_R3" library="resistor" package="0207/10" value="100k" x="8.89" y="22.225" rot="R180"/>
 <element name="LFO_R4" library="resistor" package="0207/10" value="100k" x="6.985" y="19.685"/>
 <element name="LFO_R5" library="resistor" package="0207/10" value="10k" x="22.86" y="9.525" rot="R270"/>
-<element name="LFO_C3" library="SparkFun-Capacitors" package="CAP-PTH-SMALLEZ" value="226" x="5.51579375" y="16.092903125" smashed="yes" rot="R180">
+<element name="LFO_C1" library="SparkFun-Capacitors" package="CAP-PTH-SMALLEZ" value="226" x="5.51579375" y="16.092903125" smashed="yes" rot="R180">
 <attribute name="NAME" x="6.78579375" y="14.187903125" size="0.6096" layer="25" rot="R180"/>
 <attribute name="VALUE" x="9.96079375" y="16.727903125" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="LFO_PITCH" library="SparkFun-Electromechanical" package="ALPS_POT" value="50K(LOG)" x="5.715" y="5.715" rot="R45">
 <attribute name="PROD_ID" value="RES-09177" x="5.715" y="5.715" size="1.778" layer="27" rot="R45" display="off"/>
 </element>
-<element name="TRI_R2" library="resistor" package="0207/10" value="100k" x="19.05" y="29.845" rot="R225"/>
-<element name="~VCO" library="TOF" package="1X01_SIDE_NAME" value="~VCO" x="30.48" y="67.31" rot="R270"/>
-<element name="TRI_IC" library="linear" package="DIL08" value="LM358N" x="17.78" y="39.37" rot="R180"/>
-<element name="TRI_R6" library="resistor" package="0207/10" value="100k" x="17.78" y="48.895" rot="R315"/>
-<element name="TRI_R7" library="resistor" package="0207/10" value="100k" x="13.97" y="48.895" rot="R135"/>
-<element name="IN_R8" library="resistor" package="0207/10" value="10k" x="8.89" y="29.845" rot="R225"/>
-<element name="TRI_C4" library="SparkFun-Capacitors" package="CAP-PTH-SMALLEZ" value="104" x="7.62" y="50.165" rot="R315"/>
-<element name="TRI_PITCH" library="SparkFun-Electromechanical" package="ALPS_POT" value="50k(LOG)" x="2.54" y="39.37">
+<element name="VCO_R3" library="resistor" package="0207/10" value="100k" x="19.05" y="29.845" rot="R225"/>
+<element name="VCO~" library="TOF" package="1X01_SIDE_NAME" value="~VCO" x="30.48" y="67.31" rot="R270"/>
+<element name="VCO_IC" library="linear" package="DIL08" value="LM358N" x="17.78" y="39.37" rot="R180"/>
+<element name="VCO_R1" library="resistor" package="0207/10" value="100k" x="17.78" y="48.895" rot="R315"/>
+<element name="VCO_R2" library="resistor" package="0207/10" value="100k" x="13.97" y="48.895" rot="R135"/>
+<element name="VCO_R4" library="resistor" package="0207/10" value="10k" x="8.89" y="29.845" rot="R225"/>
+<element name="VCO_C1" library="SparkFun-Capacitors" package="CAP-PTH-SMALLEZ" value="104" x="7.62" y="50.165" rot="R315"/>
+<element name="VCO_PITCH" library="SparkFun-Electromechanical" package="ALPS_POT" value="50k(LOG)" x="2.54" y="39.37">
 <attribute name="PROD_ID" value="RES-09177" x="-16.509996875" y="5.08" size="1.778" layer="27" display="off"/>
 </element>
-<element name="VCO" library="TOF" package="1X01_SIDE_NAME" value="VCO" x="27.94" y="67.31" rot="R270"/>
-<element name="D1" library="diode" package="DO41-10" value="DIODE" x="13.335" y="29.845" rot="R45"/>
-<element name="FX_R4" library="resistor" package="0207/10" value="100k" x="62.23" y="29.845" rot="R135"/>
+<element name="VCO" library="TOF" package="1X01_SIDE_NAME" value="VCO" x="27.94" y="67.31" rot="SR270"/>
+<element name="VCO_DIODE" library="diode" package="DO41-10" value="DIODE" x="13.335" y="29.845" rot="R45"/>
+<element name="PWM_R3" library="resistor" package="0207/10" value="100k" x="62.23" y="29.845" rot="R135"/>
 <element name="SW1" library="adafruit" package="OS102011MA1Q" value="OS102011MA1Q" x="27.205" y="74" rot="R180"/>
 <element name="BAT_V+" library="wirepad" package="3,81/1,4" value="" x="39.37" y="73.66"/>
 <element name="BAT_GND" library="wirepad" package="3,81/1,4" value="" x="52.07" y="73.66"/>
 <element name="H6" library="holes" package="2,8" value="MOUNT-HOLE2.8" x="5.08" y="55.88"/>
 <element name="H1" library="holes" package="2,8" value="MOUNT-HOLE2.8" x="71.12" y="55.88"/>
 <element name="H2" library="holes" package="2,8" value="MOUNT-HOLE2.8" x="71.12" y="20.955"/>
-<element name="C2" library="rcl" package="E2-4" value="100uF" x="61.595" y="20.955" smashed="yes" rot="R135">
+<element name="LED_C1" library="rcl" package="E2-4" value="100uF" x="61.595" y="20.955" smashed="yes" rot="R135">
 <attribute name="NAME" x="59.4397375" y="21.853025" size="1.27" layer="25" ratio="10" rot="R135"/>
 <attribute name="VALUE" x="61.595" y="17.658284375" size="1.27" layer="27" ratio="10" rot="R135"/>
 </element>
-<element name="C_OUT_R" library="SparkFun-Capacitors" package="CAP-PTH-SMALLEZ" value="226" x="60.96" y="59.69" rot="R135"/>
-<element name="IN_R3" library="resistor" package="0207/10" value="10k" x="17.145" y="59.055" rot="R225"/>
-<element name="IN_R4" library="resistor" package="0207/10" value="10k" x="15.24" y="60.96" rot="R225"/>
-<element name="IN_C2" library="SparkFun-Capacitors" package="CAP-PTH-SMALLEZ" value="226" x="24.075525" y="53.603025" rot="R225"/>
-<element name="IN_R" library="TOF" package="1X01_SIDE_NAME" value="IN(R)" x="25.4" y="67.31" rot="R270"/>
+<element name="OUTR_C1" library="SparkFun-Capacitors" package="CAP-PTH-SMALLEZ" value="226" x="60.96" y="59.69" rot="R135"/>
+<element name="INR_R1" library="resistor" package="0207/10" value="10k" x="17.145" y="59.055" rot="R225"/>
+<element name="INR_R2" library="resistor" package="0207/10" value="10k" x="15.24" y="60.96" rot="R225"/>
+<element name="INR_C1" library="SparkFun-Capacitors" package="CAP-PTH-SMALLEZ" value="226" x="24.075525" y="53.603025" rot="R225"/>
+<element name="INR" library="TOF" package="1X01_SIDE_NAME" value="IN(R)" x="25.4" y="67.31" rot="SR270"/>
 </elements>
 <signals>
 <signal name="GND">
-<contactref element="FX_R2" pad="2"/>
+<contactref element="PWM_R2" pad="2"/>
 <contactref element="FI_C2" pad="2"/>
 <contactref element="FI_R2" pad="2"/>
-<contactref element="LED_LED" pad="K"/>
+<contactref element="LED" pad="K"/>
 <contactref element="OUT" pad="SLEEVE"/>
-<contactref element="IN_R2" pad="2"/>
-<contactref element="JP2" pad="SLEEVE"/>
-<contactref element="IC4" pad="4"/>
+<contactref element="INL_R2" pad="2"/>
+<contactref element="IN" pad="SLEEVE"/>
+<contactref element="FX_IC" pad="4"/>
 <contactref element="LFO_R4" pad="2"/>
-<contactref element="LFO_C3" pad="2"/>
-<contactref element="TRI_R7" pad="2"/>
-<contactref element="TRI_C4" pad="2"/>
+<contactref element="LFO_C1" pad="2"/>
+<contactref element="VCO_C1" pad="2"/>
 <contactref element="LFO_IC" pad="4"/>
-<contactref element="TRI_IC" pad="4"/>
+<contactref element="VCO_IC" pad="4"/>
 <contactref element="BAT_GND" pad="1"/>
-<contactref element="C2" pad="-"/>
-<contactref element="IN_R4" pad="2"/>
+<contactref element="LED_C1" pad="-"/>
+<contactref element="INR_R2" pad="2"/>
 <wire x1="13.8684" y1="43.9166" x2="13.8684" y2="43.2054" width="0.1778" layer="1"/>
 <wire x1="9.4234" y1="48.3616" x2="11.557" y2="46.228" width="0.1778" layer="1"/>
 <wire x1="11.557" y1="46.228" x2="13.8684" y2="43.9166" width="0.1778" layer="1"/>
@@ -3007,12 +3002,10 @@ design rules under a new name.</description>
 <wire x1="9.4234" y1="48.3616" x2="9.41605" y2="48.368946875" width="0.1778" layer="1"/>
 <wire x1="10.3124" y1="49.4284" x2="10.3124" y2="52.451" width="0.1778" layer="1"/>
 <wire x1="9.4234" y1="48.5394" x2="10.3124" y2="49.4284" width="0.1778" layer="1"/>
-<wire x1="10.3124" y1="52.451" x2="10.377896875" y2="52.4871" width="0.1778" layer="1"/>
 <wire x1="9.4234" y1="48.5394" x2="9.41605" y2="48.368946875" width="0.1778" layer="1"/>
 <wire x1="11.557" y1="53.6956" x2="11.557" y2="57.2516" width="0.1778" layer="1"/>
 <wire x1="10.4902" y1="52.6288" x2="11.557" y2="53.6956" width="0.1778" layer="1"/>
 <wire x1="11.557" y1="57.2516" x2="11.647896875" y2="57.367896875" width="0.1778" layer="1"/>
-<wire x1="10.4902" y1="52.6288" x2="10.377896875" y2="52.4871" width="0.1778" layer="1"/>
 <wire x1="9.2456" y1="61.1632" x2="8.001" y2="61.1632" width="0.1778" layer="1"/>
 <wire x1="11.557" y1="58.8518" x2="9.2456" y2="61.1632" width="0.1778" layer="1"/>
 <wire x1="11.557" y1="57.4294" x2="11.557" y2="58.8518" width="0.1778" layer="1"/>
@@ -3078,13 +3071,16 @@ design rules under a new name.</description>
 <wire x1="10.4902" y1="19.7358" x2="4.2672" y2="25.9588" width="0.1778" layer="1"/>
 <wire x1="11.9126" y1="19.7358" x2="10.4902" y2="19.7358" width="0.1778" layer="1"/>
 <wire x1="11.9126" y1="19.7358" x2="12.065" y2="19.685" width="0.1778" layer="1"/>
+<contactref element="VCO_R2" pad="2"/>
+<wire x1="10.377896875" y1="52.4871" x2="10.4902" y2="52.6288" width="0" layer="19" extent="1-1"/>
+<wire x1="10.3124" y1="52.451" x2="10.377896875" y2="52.4871" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
-<contactref element="FX_R1" pad="2"/>
-<contactref element="FX_R2" pad="1"/>
-<contactref element="FX_R3" pad="2"/>
-<contactref element="IC4" pad="2"/>
-<contactref element="FX_R4" pad="2"/>
+<contactref element="PWM_R1" pad="2"/>
+<contactref element="PWM_R2" pad="1"/>
+<contactref element="PWM_R4" pad="2"/>
+<contactref element="FX_IC" pad="2"/>
+<contactref element="PWM_R3" pad="2"/>
 <wire x1="57.2516" y1="34.8488" x2="57.2516" y2="35.56" width="0.1778" layer="1"/>
 <wire x1="58.4962" y1="33.6042" x2="57.2516" y2="34.8488" width="0.1778" layer="1"/>
 <wire x1="57.2516" y1="35.56" x2="57.15" y2="35.56" width="0.1778" layer="1"/>
@@ -3104,17 +3100,17 @@ design rules under a new name.</description>
 <wire x1="58.674" y1="33.4264" x2="58.637896875" y2="33.4371" width="0.1778" layer="1"/>
 </signal>
 <signal name="VIN">
-<contactref element="FX_R1" pad="1"/>
+<contactref element="PWM_R1" pad="1"/>
 <contactref element="LED_SW" pad="1"/>
 <contactref element="FI_R1" pad="1"/>
-<contactref element="IN_R1" pad="1"/>
-<contactref element="IC4" pad="8"/>
+<contactref element="INL_R1" pad="1"/>
+<contactref element="FX_IC" pad="8"/>
 <contactref element="LFO_R3" pad="1"/>
-<contactref element="TRI_R6" pad="1"/>
+<contactref element="VCO_R1" pad="1"/>
 <contactref element="LFO_IC" pad="8"/>
-<contactref element="TRI_IC" pad="8"/>
+<contactref element="VCO_IC" pad="8"/>
 <contactref element="SW1" pad="3"/>
-<contactref element="IN_R3" pad="1"/>
+<contactref element="INR_R1" pad="1"/>
 <wire x1="54.7624" y1="45.1612" x2="54.7624" y2="43.2054" width="0.1778" layer="1"/>
 <wire x1="54.7624" y1="43.2054" x2="54.61" y2="43.18" width="0.1778" layer="1"/>
 <wire x1="54.7624" y1="45.1612" x2="54.827896875" y2="45.302896875" width="0.1778" layer="1"/>
@@ -3174,7 +3170,7 @@ design rules under a new name.</description>
 <contactref element="FI_C1" pad="1"/>
 <contactref element="FI_RES" pad="P$2"/>
 <contactref element="FILTER_OUT" pad="1"/>
-<contactref element="IC4" pad="7"/>
+<contactref element="FX_IC" pad="7"/>
 <wire x1="58.4962" y1="43.0276" x2="57.2516" y2="43.0276" width="0.1778" layer="1"/>
 <wire x1="62.0522" y1="39.4716" x2="58.4962" y2="43.0276" width="0.1778" layer="1"/>
 <wire x1="66.4972" y1="39.4716" x2="62.0522" y2="39.4716" width="0.1778" layer="1"/>
@@ -3194,7 +3190,7 @@ design rules under a new name.</description>
 <signal name="N$7">
 <contactref element="FI_C2" pad="1"/>
 <contactref element="FI_2" pad="2"/>
-<contactref element="IC4" pad="5"/>
+<contactref element="FX_IC" pad="5"/>
 <wire x1="66.4972" y1="43.2054" x2="62.23" y2="43.2054" width="0.1778" layer="16"/>
 <wire x1="70.5866" y1="47.2948" x2="66.4972" y2="43.2054" width="0.1778" layer="16"/>
 <wire x1="70.5866" y1="47.2948" x2="70.710640625" y2="47.343284375" width="0.1778" layer="16"/>
@@ -3220,14 +3216,14 @@ design rules under a new name.</description>
 <wire x1="45.6946" y1="43.0276" x2="45.8642125" y2="43.035784375" width="0.1778" layer="1"/>
 </signal>
 <signal name="N$6">
-<contactref element="LED_LED" pad="A"/>
+<contactref element="LED" pad="A"/>
 <contactref element="LED_R1" pad="2"/>
 <wire x1="56.1848" y1="10.4902" x2="57.9628" y2="10.4902" width="0.1778" layer="1"/>
 <wire x1="36.83" y1="29.845" x2="56.1848" y2="10.4902" width="0.1778" layer="1"/>
 <wire x1="57.9628" y1="10.4902" x2="58.002896875" y2="10.377896875" width="0.1778" layer="1"/>
 </signal>
 <signal name="N$11">
-<contactref element="C_OUT_L" pad="2"/>
+<contactref element="OUTL_C1" pad="2"/>
 <contactref element="OUT" pad="TIP"/>
 <wire x1="62.7634" y1="69.8754" x2="62.7634" y2="65.0748" width="0.1778" layer="1"/>
 <wire x1="64.5414" y1="71.6534" x2="62.7634" y2="69.8754" width="0.1778" layer="1"/>
@@ -3252,7 +3248,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="MOD_IN">
 <contactref element="PWM_IN" pad="1"/>
-<contactref element="IC4" pad="3"/>
+<contactref element="FX_IC" pad="3"/>
 <wire x1="58.4962" y1="35.56" x2="59.69" y2="35.56" width="0.1778" layer="16"/>
 <wire x1="57.4294" y1="34.4932" x2="58.4962" y2="35.56" width="0.1778" layer="16"/>
 <wire x1="52.2732" y1="34.4932" x2="57.4294" y2="34.4932" width="0.1778" layer="16"/>
@@ -3261,8 +3257,8 @@ design rules under a new name.</description>
 <wire x1="38.227" y1="67.2084" x2="38.1" y2="67.31" width="0.1778" layer="16"/>
 </signal>
 <signal name="TRIANGLE_PITCHMOD">
-<contactref element="~VCO" pad="1"/>
-<contactref element="D1" pad="A"/>
+<contactref element="VCO~" pad="1"/>
+<contactref element="VCO_DIODE" pad="A"/>
 <wire x1="18.1356" y1="33.6042" x2="17.0688" y2="33.6042" width="0.1778" layer="16"/>
 <wire x1="19.0246" y1="34.4932" x2="18.1356" y2="33.6042" width="0.1778" layer="16"/>
 <wire x1="19.3802" y1="34.4932" x2="19.0246" y2="34.4932" width="0.1778" layer="16"/>
@@ -3278,7 +3274,7 @@ design rules under a new name.</description>
 <contactref element="~LED" pad="1"/>
 <contactref element="LED_SW" pad="3"/>
 <contactref element="LED_SW" pad="3"/>
-<contactref element="C2" pad="+"/>
+<contactref element="LED_C1" pad="+"/>
 <wire x1="62.4078" y1="20.2692" x2="65.0748" y2="17.6022" width="0.1778" layer="1"/>
 <wire x1="65.0748" y1="17.6022" x2="65.1871" y2="17.5621" width="0.1778" layer="1"/>
 <wire x1="62.4078" y1="20.2692" x2="62.31341875" y2="20.236578125" width="0.1778" layer="1"/>
@@ -3293,9 +3289,9 @@ design rules under a new name.</description>
 <wire x1="65.2526" y1="17.4244" x2="65.1871" y2="17.5621" width="0.1778" layer="1"/>
 </signal>
 <signal name="PWM_OUT">
-<contactref element="FX_R3" pad="1"/>
+<contactref element="PWM_R4" pad="1"/>
 <contactref element="PWM_OUT" pad="1"/>
-<contactref element="IC4" pad="1"/>
+<contactref element="FX_IC" pad="1"/>
 <wire x1="53.6956" y1="34.671" x2="53.6956" y2="32.893" width="0.1778" layer="1"/>
 <wire x1="54.5846" y1="35.56" x2="53.6956" y2="34.671" width="0.1778" layer="1"/>
 <wire x1="53.6956" y1="32.893" x2="53.557896875" y2="32.8021" width="0.1778" layer="1"/>
@@ -3311,7 +3307,7 @@ design rules under a new name.</description>
 <contactref element="FI_RES" pad="P$1"/>
 <contactref element="FI_R2" pad="1"/>
 <contactref element="FI_R1" pad="2"/>
-<contactref element="IC4" pad="6"/>
+<contactref element="FX_IC" pad="6"/>
 <wire x1="65.786" y1="52.451" x2="62.0522" y2="52.451" width="0.1778" layer="1"/>
 <wire x1="62.0522" y1="52.451" x2="62.0121" y2="52.4871" width="0.1778" layer="1"/>
 <wire x1="65.786" y1="52.451" x2="65.8221" y2="52.4871" width="0.1778" layer="1"/>
@@ -3326,10 +3322,10 @@ design rules under a new name.</description>
 <wire x1="61.8744" y1="52.451" x2="62.0121" y2="52.4871" width="0.1778" layer="1"/>
 </signal>
 <signal name="N$19">
-<contactref element="IN_R1" pad="2"/>
-<contactref element="IN_R2" pad="1"/>
-<contactref element="IN_C1" pad="1"/>
-<contactref element="IN_L" pad="1"/>
+<contactref element="INL_R1" pad="2"/>
+<contactref element="INL_R2" pad="1"/>
+<contactref element="INL_C1" pad="1"/>
+<contactref element="INL" pad="1"/>
 <wire x1="9.779" y1="63.119" x2="9.779" y2="59.3852" width="0.1778" layer="16"/>
 <wire x1="15.0221" y1="68.3621" x2="9.779" y2="63.119" width="0.1778" layer="16"/>
 <wire x1="9.779" y1="59.3852" x2="9.742896875" y2="59.272896875" width="0.1778" layer="16"/>
@@ -3344,8 +3340,8 @@ design rules under a new name.</description>
 <wire x1="22.7584" y1="67.3862" x2="22.86" y2="67.31" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$20">
-<contactref element="JP2" pad="TIP"/>
-<contactref element="IN_C1" pad="2"/>
+<contactref element="IN" pad="TIP"/>
+<contactref element="INL_C1" pad="2"/>
 <wire x1="15.8242" y1="55.118" x2="19.0246" y2="55.118" width="0.1778" layer="1"/>
 <wire x1="6.4008" y1="64.5414" x2="15.8242" y2="55.118" width="0.1778" layer="1"/>
 <wire x1="4.445" y1="64.5414" x2="6.4008" y2="64.5414" width="0.1778" layer="1"/>
@@ -3354,7 +3350,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$5">
 <contactref element="~PWM" pad="1"/>
-<contactref element="FX_R4" pad="1"/>
+<contactref element="PWM_R3" pad="1"/>
 <wire x1="65.786" y1="31.4706" x2="65.786" y2="26.3144" width="0.1778" layer="1"/>
 <wire x1="62.7634" y1="34.4932" x2="65.786" y2="31.4706" width="0.1778" layer="1"/>
 <wire x1="59.3852" y1="34.4932" x2="62.7634" y2="34.4932" width="0.1778" layer="1"/>
@@ -3414,7 +3410,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$22">
 <contactref element="LFO_IC" pad="2"/>
-<contactref element="LFO_C3" pad="1"/>
+<contactref element="LFO_C1" pad="1"/>
 <contactref element="LFO_IC" pad="5"/>
 <contactref element="LFO_PITCH" pad="P$2"/>
 <wire x1="11.0236" y1="11.0236" x2="15.4686" y2="11.0236" width="0.1778" layer="1"/>
@@ -3430,17 +3426,17 @@ design rules under a new name.</description>
 <wire x1="10.668" y1="10.668" x2="10.664746875" y2="10.664746875" width="0.1778" layer="1"/>
 </signal>
 <signal name="N$2">
-<contactref element="TRI_R2" pad="2"/>
-<contactref element="D1" pad="C"/>
+<contactref element="VCO_R3" pad="2"/>
+<contactref element="VCO_DIODE" pad="C"/>
 <wire x1="9.779" y1="26.3144" x2="15.2908" y2="26.3144" width="0.1778" layer="1"/>
 <wire x1="15.2908" y1="26.3144" x2="15.457896875" y2="26.252896875" width="0.1778" layer="1"/>
 <wire x1="9.779" y1="26.3144" x2="9.742896875" y2="26.252896875" width="0.1778" layer="1"/>
 </signal>
 <signal name="N$4">
-<contactref element="TRI_R7" pad="1"/>
-<contactref element="TRI_R6" pad="2"/>
-<contactref element="TRI_IC" pad="3"/>
-<contactref element="IN_R8" pad="1"/>
+<contactref element="VCO_R2" pad="1"/>
+<contactref element="VCO_R1" pad="2"/>
+<contactref element="VCO_IC" pad="3"/>
+<contactref element="VCO_R4" pad="1"/>
 <wire x1="13.335" y1="33.6042" x2="12.6238" y2="33.6042" width="0.1778" layer="1"/>
 <wire x1="15.4686" y1="35.7378" x2="13.335" y2="33.6042" width="0.1778" layer="1"/>
 <wire x1="15.4686" y1="42.1386" x2="15.4686" y2="35.7378" width="0.1778" layer="1"/>
@@ -3454,9 +3450,9 @@ design rules under a new name.</description>
 <wire x1="17.6022" y1="45.339" x2="17.5621" y2="45.302896875" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$10">
-<contactref element="TRI_IC" pad="1"/>
-<contactref element="IN_R8" pad="2"/>
-<contactref element="TRI_PITCH" pad="P$3"/>
+<contactref element="VCO_IC" pad="1"/>
+<contactref element="VCO_R4" pad="2"/>
+<contactref element="VCO_PITCH" pad="P$3"/>
 <wire x1="5.334" y1="37.6936" x2="5.334" y2="26.3144" width="0.1778" layer="1"/>
 <wire x1="9.4234" y1="41.783" x2="5.334" y2="37.6936" width="0.1778" layer="1"/>
 <wire x1="5.334" y1="26.3144" x2="5.297896875" y2="26.252896875" width="0.1778" layer="1"/>
@@ -3468,11 +3464,11 @@ design rules under a new name.</description>
 <wire x1="9.6012" y1="41.9608" x2="9.54" y2="41.87" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$18">
-<contactref element="TRI_IC" pad="2"/>
-<contactref element="TRI_C4" pad="1"/>
-<contactref element="TRI_R2" pad="1"/>
-<contactref element="TRI_IC" pad="5"/>
-<contactref element="TRI_PITCH" pad="P$2"/>
+<contactref element="VCO_IC" pad="2"/>
+<contactref element="VCO_C1" pad="1"/>
+<contactref element="VCO_R3" pad="1"/>
+<contactref element="VCO_IC" pad="5"/>
+<contactref element="VCO_PITCH" pad="P$2"/>
 <wire x1="19.2024" y1="42.1386" x2="19.2024" y2="43.0276" width="0.1778" layer="1"/>
 <wire x1="22.5806" y1="38.7604" x2="19.2024" y2="42.1386" width="0.1778" layer="1"/>
 <wire x1="22.5806" y1="33.6042" x2="22.5806" y2="38.7604" width="0.1778" layer="1"/>
@@ -3494,8 +3490,8 @@ design rules under a new name.</description>
 <wire x1="14.0462" y1="35.56" x2="13.97" y2="35.56" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$23">
-<contactref element="TRI_IC" pad="6"/>
-<contactref element="TRI_IC" pad="7"/>
+<contactref element="VCO_IC" pad="6"/>
+<contactref element="VCO_IC" pad="7"/>
 <contactref element="VCO" pad="1"/>
 <wire x1="19.05" y1="35.56" x2="16.51" y2="35.56" width="0.1778" layer="1"/>
 <wire x1="19.2024" y1="39.4716" x2="19.2024" y2="35.56" width="0.1778" layer="16"/>
@@ -3515,7 +3511,7 @@ design rules under a new name.</description>
 <wire x1="39.2938" y1="73.6092" x2="39.37" y2="73.66" width="0.1778" layer="1"/>
 </signal>
 <signal name="N$24">
-<contactref element="C_OUT_R" pad="2"/>
+<contactref element="OUTR_C1" pad="2"/>
 <contactref element="OUT" pad="RING"/>
 <wire x1="68.6308" y1="61.5188" x2="59.2074" y2="61.5188" width="0.1778" layer="1"/>
 <wire x1="71.6534" y1="64.5414" x2="68.6308" y2="61.5188" width="0.1778" layer="1"/>
@@ -3523,26 +3519,26 @@ design rules under a new name.</description>
 <wire x1="71.6534" y1="64.5414" x2="71.755" y2="64.68393125" width="0.1778" layer="1"/>
 </signal>
 <signal name="N$9">
-<contactref element="C_OUT_R" pad="1"/>
-<contactref element="OUTB" pad="1"/>
+<contactref element="OUTR_C1" pad="1"/>
+<contactref element="OUTR" pad="1"/>
 <wire x1="59.2074" y1="59.7408" x2="60.8076" y2="59.7408" width="0.1778" layer="1"/>
 <wire x1="53.34" y1="65.6082" x2="59.2074" y2="59.7408" width="0.1778" layer="1"/>
 <wire x1="53.34" y1="67.31" x2="53.34" y2="65.6082" width="0.1778" layer="1"/>
 <wire x1="60.8076" y1="59.7408" x2="60.96" y2="59.69" width="0.1778" layer="1"/>
 </signal>
 <signal name="N$12">
-<contactref element="C_OUT_L" pad="1"/>
-<contactref element="OUTA" pad="1"/>
+<contactref element="OUTL_C1" pad="1"/>
+<contactref element="OUTL" pad="1"/>
 <wire x1="54.7624" y1="63.2968" x2="64.3636" y2="63.2968" width="0.1778" layer="16"/>
 <wire x1="50.8508" y1="67.2084" x2="54.7624" y2="63.2968" width="0.1778" layer="16"/>
 <wire x1="64.3636" y1="63.2968" x2="64.4525" y2="63.1825" width="0.1778" layer="16"/>
 <wire x1="50.8508" y1="67.2084" x2="50.8" y2="67.31" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$14">
-<contactref element="IN_R3" pad="2"/>
-<contactref element="IN_R4" pad="1"/>
-<contactref element="IN_C2" pad="1"/>
-<contactref element="IN_R" pad="1"/>
+<contactref element="INR_R1" pad="2"/>
+<contactref element="INR_R2" pad="1"/>
+<contactref element="INR_C1" pad="1"/>
+<contactref element="INR" pad="1"/>
 <wire x1="22.7584" y1="64.7192" x2="18.8468" y2="64.7192" width="0.1778" layer="1"/>
 <wire x1="25.2476" y1="67.2084" x2="22.7584" y2="64.7192" width="0.1778" layer="1"/>
 <wire x1="18.8468" y1="64.7192" x2="18.8321" y2="64.5521" width="0.1778" layer="1"/>
@@ -3557,8 +3553,8 @@ design rules under a new name.</description>
 <wire x1="24.003" y1="53.6956" x2="24.075525" y2="53.603025" width="0.1778" layer="1"/>
 </signal>
 <signal name="N$15">
-<contactref element="IN_C2" pad="2"/>
-<contactref element="JP2" pad="RING"/>
+<contactref element="INR_C1" pad="2"/>
+<contactref element="IN" pad="RING"/>
 <wire x1="22.225" y1="59.7408" x2="22.225" y2="51.9176" width="0.1778" layer="1"/>
 <wire x1="11.557" y1="70.4088" x2="22.225" y2="59.7408" width="0.1778" layer="1"/>
 <wire x1="11.557" y1="71.6534" x2="11.557" y2="70.4088" width="0.1778" layer="1"/>
@@ -3568,10 +3564,4 @@ design rules under a new name.</description>
 </signals>
 </board>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>
