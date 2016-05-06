@@ -13849,6 +13849,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="VIN" device=""/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="H3" library="holes" deviceset="MOUNT-HOLE" device="2.8"/>
+<part name="LED_C2" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="100uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -13952,6 +13953,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="SUPPLY3" gate="G$1" x="160.02" y="86.36"/>
 <instance part="GND8" gate="1" x="160.02" y="55.88"/>
 <instance part="H3" gate="G$1" x="35.56" y="40.64"/>
+<instance part="LED_C2" gate="G$1" x="233.68" y="55.88"/>
 </instances>
 <busses>
 </busses>
