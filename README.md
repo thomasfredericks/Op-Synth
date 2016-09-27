@@ -1,4 +1,4 @@
-# BerlingoSynth
+# Berlingo Synth
 
 The Berlingo Synth is an open source modular micro analog synthesizer designed to facilitate the understanding of electronics, audio synthesis, audio theory, and filtering.
 
