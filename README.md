@@ -1,10 +1,10 @@
-# Berlingo Synth
+# Op-Synth
 
-The Berlingo Synth is an open source modular micro analog synthesizer designed to facilitate the understanding of electronics, audio synthesis, audio theory, and filtering.
+The Op-Synth is an open source modular micro analog synthesizer designed to facilitate the understanding of electronics, audio synthesis, audio theory, and filtering.
 
-The Berlingo Synth is a 100% analog kit that needs to be assembled. It is easy to build and is an excellent introduction to electronics. It introduces to the basic principles of sound synthesis through a modular patch bay just like a modular analog synthesizer. It is also equipped with a LED than can help to visualize the evolution of the sound signal and serves as a basic introduction to synesthesia.
+The Op-Synth is a 100% analog kit that needs to be assembled. It is easy to build and is an excellent introduction to electronics. It introduces to the basic principles of sound synthesis through a modular patch bay just like a modular analog synthesizer. It is also equipped with a LED than can help to visualize the evolution of the sound signal and serves as a basic introduction to synesthesia.
 
-In addition to generating an audio signal, the Berlingo Synth has an audio input that allows musicians to manipulate the sound that comes from their cell phone, music player or electric guitar. Many Berlingo Synths can also be chained to each other to create more complex sonic textures. Moreover, this little (3"x3") synthesizer is inexpensive (between 15$ and 25 $CAN).
+In addition to generating an audio signal, the Op-Synth has an audio input that allows musicians to manipulate the sound that comes from their cell phone, music player or electric guitar. Many Op-Synths can also be chained to each other to create more complex sonic textures. Moreover, this little (3"x3") synthesizer is inexpensive (between 15$ and 25 $CAN).
 
 All the circuitry is build as independent modules that are simple to isolate, understand and hack.
 
