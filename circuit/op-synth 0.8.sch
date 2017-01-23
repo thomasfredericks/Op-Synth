@@ -10831,11 +10831,11 @@ Links&lt;p&gt;
 <part name="INR" library="TOF" deviceset="HEADER-1X1" device="" value="IN(R)"/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="VIN" device=""/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LFO_C" library="resistor" deviceset="C-US" device="050-024X044" value="22uF"/>
-<part name="INL_C" library="adafruit" deviceset="C-US" device="050-024X044" value="22uF"/>
-<part name="INR_C" library="adafruit" deviceset="C-US" device="050-024X044" value="22uF"/>
-<part name="OUTL_C1" library="adafruit" deviceset="C-US" device="050-024X044" value="22uF"/>
-<part name="OUTR_C1" library="adafruit" deviceset="C-US" device="050-024X044" value="22uF"/>
+<part name="LFO_C" library="resistor" deviceset="C-US" device="050-024X044" value="226"/>
+<part name="INL_C" library="adafruit" deviceset="C-US" device="050-024X044" value="226"/>
+<part name="INR_C" library="adafruit" deviceset="C-US" device="050-024X044" value="226"/>
+<part name="OUTL_C1" library="adafruit" deviceset="C-US" device="050-024X044" value="226"/>
+<part name="OUTR_C1" library="adafruit" deviceset="C-US" device="050-024X044" value="226"/>
 <part name="VCO~1" library="TOF" deviceset="HEADER-1X1" device=""/>
 <part name="VCO1" library="TOF" deviceset="HEADER-1X1" device=""/>
 <part name="LFO1" library="TOF" deviceset="HEADER-1X1" device=""/>

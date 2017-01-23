@@ -11,16 +11,16 @@
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -32,19 +32,19 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -99,8 +99,8 @@
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
-<layer number="200" name="200bmp" color="13" fill="10" visible="yes" active="yes"/>
-<layer number="201" name="201bmp" color="13" fill="10" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="13" fill="10" visible="no" active="yes"/>
+<layer number="201" name="201bmp" color="13" fill="10" visible="no" active="yes"/>
 <layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
 <layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
 <layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
@@ -156,9 +156,9 @@
 <text x="58.1025" y="12.7381" size="2.54" layer="27" font="vector" rot="R45">LED</text>
 <text x="58.2168" y="55.3974" size="2.54" layer="27" font="vector" rot="R225">FILTER</text>
 <text x="50.0634" y="35.0266" size="2.54" layer="27" font="vector" rot="R315">PWM</text>
-<text x="51.385828125" y="18.910271875" size="1.778" layer="27" font="vector" align="center">OP
+<text x="51.385828125" y="17.640271875" size="1.778" layer="27" font="vector" align="center">OP-
 SYNTH
-0.7</text>
+</text>
 <polygon width="0.4064" layer="27">
 <vertex x="38.735" y="62.865"/>
 <vertex x="37.465" y="62.865"/>
@@ -209,12 +209,10 @@ SYNTH
 <vertex x="52.705" y="60.96"/>
 <vertex x="53.34" y="62.23"/>
 </polygon>
-<text x="35.56" y="78.74" size="1.778" layer="49">Use eagle 6.6 to export!</text>
+<text x="99.06" y="68.58" size="1.778" layer="49">Use eagle 6.6 to export!</text>
 <text x="7.5311" y="6.3373" size="1.778" layer="27" font="vector" align="center">50K</text>
 <text x="3.4671" y="39.3573" size="1.778" layer="27" font="vector" align="center">50K</text>
 <text x="71.7931" y="39.3573" size="1.778" layer="27" font="vector" align="center">200K+</text>
-<text x="0" y="-0.21081875" size="0.08381875" layer="200" font="vector">C:/Users/thoma_000/Downloads/berlingo-caracter2.bmp</text>
-<text x="0" y="-0.205740625" size="0.08128125" layer="200" font="vector">C:/Users/thoma_000/Downloads/berlingo-caracter2.bmp</text>
 <rectangle x1="33.80231875" y1="7.47191875" x2="34.43731875" y2="7.51408125" layer="200"/>
 <rectangle x1="44.04868125" y1="7.47191875" x2="44.55668125" y2="7.51408125" layer="200"/>
 <rectangle x1="33.2105" y1="7.51408125" x2="33.67531875" y2="7.5565" layer="200"/>
@@ -7174,14 +7172,18 @@ SYNTH
 <rectangle x1="37.86631875" y1="62.1665" x2="39.0525" y2="62.20891875" layer="200"/>
 <rectangle x1="37.99331875" y1="62.20891875" x2="38.88231875" y2="62.25108125" layer="200"/>
 <rectangle x1="38.24731875" y1="62.25108125" x2="38.5445" y2="62.2935" layer="200"/>
-<text x="0" y="-0.21081875" size="0.08381875" layer="200" font="vector">C:/Users/thoma_000/Downloads/berlingo-caracter2.bmp</text>
 <text x="52.9209" y="25.8191" size="1.27" layer="27" font="vector" rot="R315">PWM~+/-</text>
 <rectangle x1="21.59" y1="60.96" x2="54.61" y2="69.85" layer="41"/>
 <rectangle x1="26.67" y1="7.62" x2="50.165" y2="60.96" layer="41"/>
-<text x="63.768328125" y="18.592771875" size="1.778" layer="28" font="vector" rot="MR0" align="center-left">circuit by tof@t-o-f.info
-illustration by @coloryeah_
-
-perte de signal 2016</text>
+<text x="57.735828125" y="69.075271875" size="1.778" layer="28" font="vector" rot="MR0" align="top-left">circuit : thomas o fredericks
+illustration : denis raby
+op-synth.tofstuff.com</text>
+<text x="70.435828125" y="23.990271875" size="1.778" layer="27" font="vector" align="center">Power</text>
+<wire x1="26.67" y1="8.89" x2="49.53" y2="8.89" width="0.4064" layer="28"/>
+<wire x1="49.53" y1="8.89" x2="49.53" y2="54.61" width="0.4064" layer="28"/>
+<wire x1="49.53" y1="54.61" x2="26.67" y2="54.61" width="0.4064" layer="28"/>
+<wire x1="26.67" y1="54.61" x2="26.67" y2="8.89" width="0.4064" layer="28"/>
+<text x="45.72" y="17.78" size="1.778" layer="28" font="vector" rot="MR0">9V battery</text>
 </plain>
 <libraries>
 <library name="linear">
@@ -9119,20 +9121,20 @@ design rules under a new name.</description>
 <element name="INR_R1" library="resistor" package="0204/7" value="10k" x="16.51" y="59.69" rot="R45"/>
 <element name="INR_R2" library="resistor" package="0204/7" value="10k" x="14.605" y="61.595" rot="R45"/>
 <element name="INR" library="TOF" package="1X01_SIDE_NAME" value="IN(R)" x="25.4" y="71.12" rot="SR270"/>
-<element name="LFO_C" library="resistor" package="C050-024X044" value="22uF" x="5.3975" y="16.51" smashed="yes">
+<element name="LFO_C" library="resistor" package="C050-024X044" value="226" x="5.3975" y="16.51" smashed="yes">
 <attribute name="NAME" x="8.0645" y="18.034" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="3.6195" y="17.9705" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="INL_C" library="adafruit" package="C050-024X044" value="22uF" x="22.564746875" y="53.085821875" smashed="yes" rot="R225">
+<element name="INL_C" library="adafruit" package="C050-024X044" value="226" x="22.564746875" y="53.085821875" smashed="yes" rot="R225">
 <attribute name="NAME" x="24.809809375" y="53.355228125" size="1.27" layer="25" ratio="10" rot="R225"/>
 <attribute name="VALUE" x="25.111128125" y="53.688909375" size="1.27" layer="27" ratio="10" rot="R225"/>
 </element>
-<element name="INR_C" library="adafruit" package="C050-024X044" value="22uF" x="20.243828125" y="55.987671875" smashed="yes" rot="R225">
+<element name="INR_C" library="adafruit" package="C050-024X044" value="226" x="20.243828125" y="55.987671875" smashed="yes" rot="R225">
 <attribute name="NAME" x="22.48889375" y="56.25708125" size="1.27" layer="25" ratio="10" rot="R225"/>
 <attribute name="VALUE" x="20.2502125" y="59.7657625" size="1.27" layer="27" ratio="10" rot="R225"/>
 </element>
-<element name="OUTL_C1" library="adafruit" package="C050-024X044" value="22uF" x="60.960634375" y="61.12898125" rot="R315"/>
-<element name="OUTR_C1" library="adafruit" package="C050-024X044" value="22uF" x="64.26088125" y="64.134875" rot="R315"/>
+<element name="OUTL_C1" library="adafruit" package="C050-024X044" value="226" x="60.960634375" y="61.12898125" rot="R315"/>
+<element name="OUTR_C1" library="adafruit" package="C050-024X044" value="226" x="64.26088125" y="64.134875" rot="R315"/>
 <element name="VCO~1" library="TOF" package="1X01_SIDE_NAME" value="" x="30.48" y="73.66" rot="R90"/>
 <element name="VCO1" library="TOF" package="1X01_SIDE_NAME" value="" x="27.94" y="73.66" rot="R90"/>
 <element name="LFO1" library="TOF" package="1X01_SIDE_NAME" value="" x="33.02" y="73.66"/>
@@ -9151,7 +9153,7 @@ design rules under a new name.</description>
 <element name="VCO_*B" library="TOF" package="1X01_SIDE_NAME" value="" x="24.13" y="40.64" rot="R270"/>
 <element name="VCO_*A" library="TOF" package="1X01_SIDE_NAME" value="" x="24.13" y="38.1"/>
 <element name="GND" library="kanflo" package="KEYSTONE_AA_AAA_BATTERY_TERMINAL-629" value="KEYSTONE-629" x="44.45" y="3.175" smashed="yes">
-<attribute name="NAME" x="48.267" y="7.937" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="NAME" x="49.537" y="7.937" size="1.27" layer="21" align="bottom-center"/>
 </element>
 <element name="9V+" library="kanflo" package="KEYSTONE_BATTAERY_TERMINAL-629+" value="KEYSTONE-629+" x="31.75" y="3.175" smashed="yes">
 <attribute name="NAME" x="27.947" y="7.937" size="1.27" layer="21" align="bottom-center"/>
