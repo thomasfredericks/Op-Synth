@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -10768,7 +10769,7 @@ Links&lt;p&gt;
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LED_SW" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="12MM" value="SW"/>
 <part name="LED" library="SparkFun-LED" deviceset="LED" device="5MM"/>
-<part name="LED_R1" library="resistor" deviceset="R-US_" device="0204/7" value="150"/>
+<part name="LED_R1" library="resistor" deviceset="R-US_" device="0204/7" value="330"/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="VIN" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -10777,18 +10778,16 @@ Links&lt;p&gt;
 <part name="OUT" library="SparkFun-Connectors" deviceset="AUDIO-JACK" device="PTH"/>
 <part name="LFO" library="TOF" deviceset="HEADER-1X1" device=""/>
 <part name="~LED" library="TOF" deviceset="HEADER-1X1" device="" value="LED~"/>
-<part name="PWM_IN" library="TOF" deviceset="HEADER-1X1" device="" value="PWM"/>
+<part name="PWM_IN" library="TOF" deviceset="HEADER-1X1" device="" value="AMP"/>
 <part name="OUTL" library="TOF" deviceset="HEADER-1X1" device="" value="OUT(L)"/>
 <part name="FI_R1" library="resistor" deviceset="R-US_" device="0204/7" value="100k"/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="VIN" device=""/>
 <part name="IN" library="SparkFun-Connectors" deviceset="AUDIO-JACK" device="PTH"/>
-<part name="INL_R1" library="resistor" deviceset="R-US_" device="0204/7" value="100k"/>
-<part name="INL_R2" library="resistor" deviceset="R-US_" device="0204/7" value="100k"/>
 <part name="INL" library="TOF" deviceset="HEADER-1X1" device="" value="IN(L)"/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="~PWM" library="TOF" deviceset="HEADER-1X1" device="" value="PWM~"/>
+<part name="~PWM" library="TOF" deviceset="HEADER-1X1" device="" value="AMP~"/>
 <part name="FILTER_IN" library="TOF" deviceset="HEADER-1X1" device="" value="FILTER"/>
-<part name="PWM_OUT" library="TOF" deviceset="HEADER-1X1" device="" value="PWM"/>
+<part name="PWM_OUT" library="TOF" deviceset="HEADER-1X1" device="" value="AMP"/>
 <part name="OUTR" library="TOF" deviceset="HEADER-1X1" device="" value="OUT(R)"/>
 <part name="FILTER_OUT" library="TOF" deviceset="HEADER-1X1" device="" value="FILTER"/>
 <part name="FX_IC" library="linear" deviceset="LM358" device="N" value="LM358N"/>
@@ -10803,7 +10802,7 @@ Links&lt;p&gt;
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LFO_PITCH" library="SparkFun-Electromechanical" deviceset="POT" device="" value="50K(LOG)"/>
 <part name="VCO_R3" library="resistor" deviceset="R-US_" device="0204/7" value="100k"/>
-<part name="VCO~" library="TOF" deviceset="HEADER-1X1" device="" value="VCO~"/>
+<part name="VCO~" library="TOF" deviceset="HEADER-1X1" device="" value="OSC~"/>
 <part name="VCO_IC" library="linear" deviceset="LM358" device="N" value="LM358N"/>
 <part name="VCO_R1" library="resistor" deviceset="R-US_" device="0204/7" value="100k"/>
 <part name="VCO_R2" library="resistor" deviceset="R-US_" device="0204/7" value="100k"/>
@@ -10812,7 +10811,7 @@ Links&lt;p&gt;
 <part name="VCO_R4" library="resistor" deviceset="R-US_" device="0204/7" value="10k"/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="VCO_PITCH" library="SparkFun-Electromechanical" deviceset="POT" device="" value="50k(LOG)"/>
-<part name="VCO" library="TOF" deviceset="HEADER-1X1" device="" value="VCO"/>
+<part name="VCO" library="TOF" deviceset="HEADER-1X1" device="" value="OSC"/>
 <part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="VIN" device=""/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="SparkFun-Aesthetics" deviceset="VIN" device=""/>
@@ -10824,8 +10823,6 @@ Links&lt;p&gt;
 <part name="H6" library="holes" deviceset="MOUNT-HOLE" device="3.6" value="MOUNT-HOLE3.6"/>
 <part name="H1" library="holes" deviceset="MOUNT-HOLE" device="3.6" value="MOUNT-HOLE3.6"/>
 <part name="H2" library="holes" deviceset="MOUNT-HOLE" device="3.6" value="MOUNT-HOLE3.6"/>
-<part name="INR_R1" library="resistor" deviceset="R-US_" device="0204/7" value="10k"/>
-<part name="INR_R2" library="resistor" deviceset="R-US_" device="0204/7" value="10k"/>
 <part name="INR" library="TOF" deviceset="HEADER-1X1" device="" value="IN(R)"/>
 <part name="LFO_C" library="resistor" deviceset="C-US" device="050-024X044" value="226"/>
 <part name="INL_C" library="adafruit" deviceset="C-US" device="050-024X044" value="226"/>
@@ -10855,6 +10852,8 @@ Links&lt;p&gt;
 <part name="H3" library="holes" deviceset="MOUNT-HOLE" device="3.6" value="MOUNT-HOLE3.6"/>
 <part name="VCO_C1" library="adafruit" deviceset="C-US" device="050-024X044" value="104"/>
 <part name="ATTENUATION" library="SparkFun-Electromechanical" deviceset="POT" device="TRIM" value="1M"/>
+<part name="PWM_R3" library="resistor" deviceset="R-US_" device="0204/7" value="10k"/>
+<part name="PWM_R4" library="resistor" deviceset="R-US_" device="0204/7" value="10k"/>
 <part name="P_LED" library="SparkFun-Electromechanical" deviceset="POT" device="" value="500k-1M"/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="VIN" device=""/>
 </parts>
@@ -10862,17 +10861,17 @@ Links&lt;p&gt;
 <sheet>
 <plain>
 <text x="132.08" y="40.64" size="1.778" layer="91">IC4_LM358_PWR</text>
-<text x="129.54" y="175.26" size="6.4516" layer="91">Use eagle 6.6 to export</text>
+<text x="137.16" y="208.28" size="6.4516" layer="97">Warning: Use eagle 6.6 to export</text>
 </plain>
 <instances>
 <instance part="FI_RES" gate="G$1" x="116.84" y="-15.24" rot="R90"/>
 <instance part="FI_C2" gate="G$1" x="91.44" y="-17.78"/>
-<instance part="FI_C1" gate="G$1" x="73.66" y="12.7"/>
-<instance part="PWM_R1" gate="G$1" x="-53.34" y="2.54" rot="R270"/>
-<instance part="PWM_R2" gate="G$1" x="-53.34" y="-12.7" rot="R270"/>
+<instance part="FI_C1" gate="G$1" x="73.66" y="15.24"/>
+<instance part="PWM_R1" gate="G$1" x="-40.64" y="15.24" rot="R270"/>
+<instance part="PWM_R2" gate="G$1" x="-40.64" y="0" rot="R270"/>
 <instance part="FI_R2" gate="G$1" x="104.14" y="-20.32" rot="R270"/>
-<instance part="GND3" gate="1" x="-53.34" y="-20.32"/>
-<instance part="SUPPLY1" gate="G$1" x="-53.34" y="7.62"/>
+<instance part="GND3" gate="1" x="-40.64" y="-7.62"/>
+<instance part="SUPPLY1" gate="G$1" x="-40.64" y="20.32"/>
 <instance part="FI_2" gate="G$1" x="83.82" y="5.08"/>
 <instance part="FI_1" gate="G$1" x="66.04" y="5.08"/>
 <instance part="GND6" gate="1" x="91.44" y="-30.48"/>
@@ -10888,18 +10887,16 @@ Links&lt;p&gt;
 <instance part="OUT" gate="G$1" x="213.36" y="0" rot="R180"/>
 <instance part="LFO" gate="G$1" x="121.92" y="147.32" rot="R180"/>
 <instance part="~LED" gate="G$1" x="213.36" y="114.3"/>
-<instance part="PWM_IN" gate="G$1" x="-35.56" y="-30.48"/>
+<instance part="PWM_IN" gate="G$1" x="-30.48" y="-17.78"/>
 <instance part="OUTL" gate="G$1" x="203.2" y="25.4" rot="R270"/>
 <instance part="FI_R1" gate="G$1" x="104.14" y="-7.62" rot="R270"/>
 <instance part="SUPPLY5" gate="G$1" x="104.14" y="0"/>
 <instance part="IN" gate="G$1" x="190.5" y="93.98" rot="R180"/>
-<instance part="INL_R1" gate="G$1" x="111.76" y="111.76" rot="R270"/>
-<instance part="INL_R2" gate="G$1" x="114.3" y="83.82" rot="R270"/>
 <instance part="INL" gate="G$1" x="88.9" y="96.52"/>
 <instance part="GND13" gate="1" x="182.88" y="86.36"/>
-<instance part="~PWM" gate="G$1" x="-53.34" y="27.94"/>
+<instance part="~PWM" gate="G$1" x="-25.4" y="22.86"/>
 <instance part="FILTER_IN" gate="G$1" x="45.72" y="12.7" rot="R270"/>
-<instance part="PWM_OUT" gate="G$1" x="22.86" y="5.08" rot="R180"/>
+<instance part="PWM_OUT" gate="G$1" x="17.78" y="5.08" rot="R180"/>
 <instance part="OUTR" gate="G$1" x="182.88" y="25.4" rot="R270"/>
 <instance part="FILTER_OUT" gate="G$1" x="137.16" y="2.54" rot="R180"/>
 <instance part="FX_IC" gate="B" x="116.84" y="2.54"/>
@@ -10941,8 +10938,6 @@ Links&lt;p&gt;
 <instance part="H6" gate="G$1" x="48.26" y="66.04"/>
 <instance part="H1" gate="G$1" x="27.94" y="66.04"/>
 <instance part="H2" gate="G$1" x="25.4" y="55.88"/>
-<instance part="INR_R1" gate="G$1" x="-20.32" y="-22.86"/>
-<instance part="INR_R2" gate="G$1" x="10.16" y="-7.62" rot="R270"/>
 <instance part="INR" gate="G$1" x="129.54" y="71.12"/>
 <instance part="LFO_C" gate="G$1" x="-30.48" y="119.38"/>
 <instance part="INL_C" gate="G$1" x="132.08" y="96.52" rot="R90"/>
@@ -10957,11 +10952,11 @@ Links&lt;p&gt;
 <instance part="~LED1" gate="G$1" x="213.36" y="124.46"/>
 <instance part="OUTR1" gate="G$1" x="172.72" y="25.4" rot="R270"/>
 <instance part="OUTL1" gate="G$1" x="215.9" y="25.4" rot="R270"/>
-<instance part="~PWM1" gate="G$1" x="-53.34" y="40.64"/>
-<instance part="PWM_IN1" gate="G$1" x="-35.56" y="-17.78"/>
+<instance part="~PWM1" gate="G$1" x="-25.4" y="33.02"/>
+<instance part="PWM_IN1" gate="G$1" x="-30.48" y="-5.08"/>
 <instance part="FILTER_IN1" gate="G$1" x="35.56" y="12.7" rot="R270"/>
 <instance part="FILTER_OUT1" gate="G$1" x="137.16" y="17.78" rot="R180"/>
-<instance part="PWM_OUT1" gate="G$1" x="22.86" y="17.78" rot="R180"/>
+<instance part="PWM_OUT1" gate="G$1" x="17.78" y="17.78" rot="R180"/>
 <instance part="LFO_A" gate="G$1" x="-10.16" y="101.6" rot="R180"/>
 <instance part="LFO_B" gate="G$1" x="12.7" y="119.38" rot="R180"/>
 <instance part="VCO_*B" gate="G$1" x="10.16" y="193.04" rot="R180"/>
@@ -10971,9 +10966,11 @@ Links&lt;p&gt;
 <instance part="GND4" gate="1" x="-15.24" y="73.66"/>
 <instance part="H3" gate="G$1" x="33.02" y="48.26"/>
 <instance part="VCO_C1" gate="G$1" x="-27.94" y="193.04"/>
-<instance part="ATTENUATION" gate="G$1" x="10.16" y="-22.86" rot="R180"/>
-<instance part="P_LED" gate="G$1" x="203.2" y="81.28" rot="R90"/>
-<instance part="SUPPLY3" gate="G$1" x="203.2" y="99.06"/>
+<instance part="ATTENUATION" gate="G$1" x="10.16" y="-20.32" rot="R180"/>
+<instance part="PWM_R3" gate="G$1" x="-12.7" y="-10.16"/>
+<instance part="PWM_R4" gate="G$1" x="10.16" y="0" rot="R90"/>
+<instance part="P_LED" gate="G$1" x="205.74" y="81.28" rot="R90"/>
+<instance part="SUPPLY3" gate="G$1" x="205.74" y="99.06"/>
 </instances>
 <busses>
 </busses>
@@ -11097,7 +11094,7 @@ Links&lt;p&gt;
 <segment>
 <pinref part="P_LED" gate="G$1" pin="S"/>
 <pinref part="SUPPLY3" gate="G$1" pin="VIN"/>
-<wire x1="203.2" y1="99.06" x2="203.2" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="99.06" x2="205.74" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FILTER_OUT" class="0">
@@ -11105,7 +11102,7 @@ Links&lt;p&gt;
 <wire x1="129.54" y1="-7.62" x2="129.54" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="2.54" x2="124.46" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="FI_C1" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="15.24" x2="129.54" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="17.78" x2="129.54" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="17.78" x2="129.54" y2="2.54" width="0.1524" layer="91"/>
 <junction x="129.54" y="2.54"/>
 <pinref part="FI_RES" gate="G$1" pin="S"/>
@@ -11132,7 +11129,7 @@ Links&lt;p&gt;
 <pinref part="FI_2" gate="G$1" pin="P$1"/>
 <pinref part="FI_1" gate="G$1" pin="P$2"/>
 <pinref part="FI_C1" gate="G$1" pin="2"/>
-<wire x1="73.66" y1="7.62" x2="73.66" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="10.16" x2="73.66" y2="5.08" width="0.1524" layer="91"/>
 <junction x="73.66" y="5.08"/>
 <wire x1="73.66" y1="5.08" x2="76.2" y2="5.08" width="0.1524" layer="91"/>
 </segment>
@@ -11176,12 +11173,12 @@ Links&lt;p&gt;
 <segment>
 <pinref part="PWM_IN" gate="G$1" pin="1"/>
 <pinref part="PWM_IN1" gate="G$1" pin="1"/>
-<wire x1="-25.4" y1="-30.48" x2="-27.94" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="-27.94" y1="-17.78" x2="-25.4" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="-17.78" x2="-25.4" y2="-22.86" width="0.1524" layer="91"/>
-<pinref part="INR_R1" gate="G$1" pin="1"/>
-<wire x1="-25.4" y1="-22.86" x2="-25.4" y2="-30.48" width="0.1524" layer="91"/>
-<junction x="-25.4" y="-22.86"/>
+<wire x1="-17.78" y1="-17.78" x2="-22.86" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="-5.08" x2="-17.78" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="-5.08" x2="-17.78" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="PWM_R3" gate="G$1" pin="1"/>
+<wire x1="-17.78" y1="-10.16" x2="-17.78" y2="-17.78" width="0.1524" layer="91"/>
+<junction x="-17.78" y="-10.16"/>
 </segment>
 </net>
 <net name="TRIANGLE_PITCHMOD" class="0">
@@ -11206,15 +11203,25 @@ Links&lt;p&gt;
 <wire x1="220.98" y1="114.3" x2="220.98" y2="81.28" width="0.1524" layer="91"/>
 <junction x="220.98" y="81.28"/>
 <pinref part="LED_SW" gate="G$1" pin="2"/>
-<pinref part="LED_SW" gate="G$1" pin="2"/>
 <wire x1="213.36" y1="81.28" x2="213.36" y2="86.36" width="0.1524" layer="91"/>
 <junction x="213.36" y="86.36"/>
 <pinref part="~LED1" gate="G$1" pin="1"/>
 <wire x1="220.98" y1="124.46" x2="220.98" y2="114.3" width="0.1524" layer="91"/>
 <junction x="220.98" y="114.3"/>
 <pinref part="P_LED" gate="G$1" pin="A"/>
-<wire x1="210.82" y1="81.28" x2="213.36" y2="81.28" width="0.1524" layer="91"/>
 <junction x="213.36" y="81.28"/>
+</segment>
+</net>
+<net name="PWM_OUT" class="0">
+<segment>
+<wire x1="10.16" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="91"/>
+<label x="15.24" y="5.08" size="1.778" layer="95"/>
+<pinref part="PWM_OUT" gate="G$1" pin="1"/>
+<junction x="10.16" y="5.08"/>
+<pinref part="FX_IC" gate="A" pin="OUT"/>
+<pinref part="PWM_OUT1" gate="G$1" pin="1"/>
+<wire x1="10.16" y1="17.78" x2="10.16" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="PWM_R4" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -11246,27 +11253,6 @@ Links&lt;p&gt;
 <pinref part="IN" gate="G$1" pin="LEFT"/>
 <wire x1="185.42" y1="96.52" x2="137.16" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="INL_C" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<wire x1="-40.64" y1="7.62" x2="-40.64" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="PWM_R1" gate="G$1" pin="2"/>
-<wire x1="-40.64" y1="-5.08" x2="-53.34" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="-5.08" x2="-53.34" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="PWM_R2" gate="G$1" pin="1"/>
-<wire x1="-53.34" y1="-7.62" x2="-53.34" y2="-5.08" width="0.1524" layer="91"/>
-<junction x="-53.34" y="-5.08"/>
-<pinref part="FX_IC" gate="A" pin="+IN"/>
-<wire x1="-7.62" y1="7.62" x2="-40.64" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="~PWM" gate="G$1" pin="1"/>
-<wire x1="-45.72" y1="27.94" x2="-40.64" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="~PWM1" gate="G$1" pin="1"/>
-<wire x1="-45.72" y1="40.64" x2="-40.64" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="40.64" x2="-40.64" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="7.62" x2="-40.64" y2="27.94" width="0.1524" layer="91"/>
-<junction x="-40.64" y="7.62"/>
-<junction x="-40.64" y="27.94"/>
 </segment>
 </net>
 <net name="FILTER_IN" class="0">
@@ -11471,35 +11457,38 @@ Links&lt;p&gt;
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="INR_R2" gate="G$1" pin="2"/>
-<pinref part="ATTENUATION" gate="G$1" pin="A"/>
-<wire x1="10.16" y1="-15.24" x2="10.16" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="FX_IC" gate="A" pin="-IN"/>
+<pinref part="PWM_R3" gate="G$1" pin="2"/>
+<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="ATTENUATION" gate="G$1" pin="S"/>
+<wire x1="5.08" y1="-20.32" x2="-7.62" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-20.32" x2="-7.62" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="-7.62" y="-10.16"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
-<pinref part="INR_R1" gate="G$1" pin="2"/>
-<wire x1="-15.24" y1="-22.86" x2="-12.7" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="-22.86" x2="-12.7" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="FX_IC" gate="A" pin="-IN"/>
-<wire x1="-12.7" y1="2.54" x2="-7.62" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="ATTENUATION" gate="G$1" pin="S"/>
-<wire x1="5.08" y1="-22.86" x2="-12.7" y2="-22.86" width="0.1524" layer="91"/>
-<junction x="-12.7" y="-22.86"/>
+<pinref part="~PWM1" gate="G$1" pin="1"/>
+<pinref part="~PWM" gate="G$1" pin="1"/>
+<wire x1="-17.78" y1="33.02" x2="-17.78" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="PWM_R1" gate="G$1" pin="2"/>
+<wire x1="-7.62" y1="7.62" x2="-17.78" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="7.62" x2="-40.64" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="7.62" x2="-40.64" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="PWM_R2" gate="G$1" pin="1"/>
+<wire x1="-40.64" y1="5.08" x2="-40.64" y2="7.62" width="0.1524" layer="91"/>
+<junction x="-40.64" y="7.62"/>
+<junction x="-17.78" y="7.62"/>
+<wire x1="-17.78" y1="22.86" x2="-17.78" y2="7.62" width="0.1524" layer="91"/>
+<junction x="-17.78" y="22.86"/>
+<pinref part="FX_IC" gate="A" pin="+IN"/>
 </segment>
 </net>
-<net name="N$26" class="0">
+<net name="N$5" class="0">
 <segment>
-<pinref part="FX_IC" gate="A" pin="OUT"/>
-<pinref part="PWM_OUT" gate="G$1" pin="1"/>
-<wire x1="7.62" y1="5.08" x2="10.16" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="PWM_OUT1" gate="G$1" pin="1"/>
-<wire x1="10.16" y1="5.08" x2="15.24" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="17.78" x2="10.16" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="17.78" x2="10.16" y2="5.08" width="0.1524" layer="91"/>
-<junction x="10.16" y="5.08"/>
-<pinref part="INR_R2" gate="G$1" pin="1"/>
-<wire x1="10.16" y1="-2.54" x2="10.16" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="PWM_R4" gate="G$1" pin="1"/>
+<pinref part="ATTENUATION" gate="G$1" pin="A"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
