@@ -1,6 +1,6 @@
 # Op-Synth
 
-![Image of Op-Synth Board Art](https://github.com/thomasfredericks/Op-Synth/blob/master/Op-Synth%20Artwork.png)
+![Image of Op-Synth Board Art](https://github.com/thomasfredericks/Op-Synth/raw/master/Op-Synth%20Artwork.png)
 
 Op-Synth is an open source modular micro analog synthesizer designed to facilitate the understanding of electronics, audio synthesis, audio theory, and filtering.
 
@@ -27,7 +27,7 @@ All the circuitry is build as independent modules that are simple to isolate, un
 
 [20 page booklet in French](https://github.com/thomasfredericks/Op-Synth/raw/master/Op-Synth(livret).pdf)
 
-![Op-Synth Booklet Sample](https://github.com/thomasfredericks/Op-Synth/blob/master/Op-Synth%20Booklet%20Sample.png)
+![Op-Synth Booklet Sample](https://github.com/thomasfredericks/Op-Synth/raw/master/Op-Synth%20Booklet%20Sample.png)
 
 ## Technical Specifications
 
