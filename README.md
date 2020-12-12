@@ -25,9 +25,9 @@ All the circuitry is build as independent modules that are simple to isolate, un
 
 ## Booklet
 
-![Op-Synth Booklet Sample](https://github.com/thomasfredericks/Op-Synth/blob/master/Op-Synth%20Booklet%20Sample.png)
-
 [20 page booklet in French](https://github.com/thomasfredericks/Op-Synth/raw/master/Op-Synth(livret).pdf)
+
+![Op-Synth Booklet Sample](https://github.com/thomasfredericks/Op-Synth/blob/master/Op-Synth%20Booklet%20Sample.png)
 
 ## Technical Specifications
 
