@@ -1,2 +1,2 @@
 theme: jekyll-theme-minimal
-show_downloads: ["true" or "false" to indicate whether to provide a download URL]
+show_downloads: "true"
