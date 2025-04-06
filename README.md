@@ -2,13 +2,13 @@
 
 ![Image of Op-Synth Board Art](https://github.com/thomasfredericks/Op-Synth/raw/master/Op-Synth%20Artwork.png)
 
-Op-Synth is an open source modular micro analog synthesizer designed to facilitate the understanding of electronics, audio synthesis, audio theory, and filtering.
+Op-Synth is an open-source modular micro analog synthesizer designed to facilitate the understanding of electronics, audio synthesis, sound theory, and filtering.
 
-Op-Synth is a 100% analog kit that needs to be assembled. It is easy to build and is an excellent introduction to electronics. It introduces to the basic principles of sound synthesis through a modular patch bay just like a modular analog synthesizer. It is also equipped with a LED than can help to visualize the evolution of the sound signal and serves as a basic introduction to synesthesia.
+Op-Synth is a 100% analog kit that requires assembly. It is easy to build and serves as an excellent introduction to electronics. It teaches the basic principles of sound synthesis through a modular patch bay, just like a traditional modular analog synthesizer. It also features an LED that helps visualize the evolution of the sound signal, serving as a basic introduction to synesthesia.
 
-In addition to generating an audio signal, the Op-Synth has an audio input that allows musicians to manipulate the sound that comes from their cell phone, music player or electric guitar. Many Op-Synths can also be chained to each other to create more complex sonic textures. Moreover, this tiny(3"x3") synthesizer is inexpensive.
+In addition to generating its own audio signal, the Op-Synth includes an audio input, allowing musicians to manipulate sounds from their cellphone, music player, or electric guitar. Multiple Op-Synths can be chained together to create more complex sonic textures. Despite its small size (3" x 3"), this synthesizer is powerful and affordable.
 
-All the circuitry is build as independent modules that are simple to isolate, understand and hack.
+All circuitry is built as independent modules that are easy to isolate, understand, and hack.
 
 ## Videos
 
